@@ -1,0 +1,215 @@
+/* Variables */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*  Termina Variables */
+
+html,body {
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.bt_form {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 1245px;
+  width: 100px;
+  height: 100;
+}
+
+
+.form_container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+p, label {
+  font-size: var(--varmal);
+}
+
+
+
+/*Termina propiedades formulario*/
+
+/* Propiedades navbar*/
+nav {
+  display:flex;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: gray;
+}
+
+/*Termina propiedades navbar*/
+/* Propiedades body */
+.main_section {
+  padding: 9px;
+  text-align: center;
+}
+
+.products {
+
+  background-size: auto;
+  background-position:center top;
+  padding: 25%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.product{
+  padding: 0px;
+  margin-top: -350px;
+}
+
+.product .content {
+  background-color: #fcf5ef;
+  padding: 18px;
+  box-shadow: 0 0 1.5px #d6e8ee;
+}
+
+.img-d {
+  text-align: center;
+}
+
+.img_container{
+  text-align: center;
+}
+/*Propiedades boton*/
+.main_button{
+  background-color: #e25b45;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main_button:hover{
+  background-color: #ff8357;
+}
+/*Termina propiedades boton*/
+
+
+.products2 {
+  margin-top: -200px;
+  background-size: cover;
+  background-position:center top;
+  padding: 23%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.imagen_producto2 {
+  height: 200px;
+  width: 200px;
+}
+
+.products3 {
+  margin-top: -500;
+  background-size: cover;
+  background-position:center top;
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/*Terminar propiedades body*/
+ 
+/*Footer*/
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-between;
+  font-size: 12px;
+  height: 40px;
+  background-color: #5b697a;
+  border: 0;
+  border-radius: 1px;
+  padding: 25px;
+  color: white;
+}
+
+.contacto a{
+  color: white;
+}
+
+/*Termina footer*/
+
+/*Propiedades venta*/
+
+.modulo_pago {
+  background-color: white;
+  box-shadow:0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pm {
+  justify-content: center;
+  
+}
+
+.modulo_pago {
+  text-align: center;
+  margin: auto;
+  max-width: 175px;
+}
+
+
+
+.data {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid gray;
+} 
+
+.texto_mp {
+  text-align:left;
+}
+
+.modulo_pago .main_btn {
+  margin-top: 10px;
+  background-color: #e25b45;
+  width: 100%;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
